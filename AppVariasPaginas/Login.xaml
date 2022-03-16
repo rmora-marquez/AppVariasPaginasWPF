@@ -1,0 +1,40 @@
+﻿<Page x:Class="AppVariasPaginas.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AppVariasPaginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+    <Grid Background="#F5C178">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Ingreso al sistema" HorizontalAlignment="center" FontSize="35" FontFamily="Tahoma" />
+        <Grid Grid.Row="1" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Nombre de usuario:" FontSize="20" Grid.Row="0" 
+                       Grid.Column="0" HorizontalAlignment="Right" Margin="10,10,10,10" />
+            <TextBox x:Name="usuario" Width="150" FontSize="20"  Grid.Row="0"
+                     Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,10,10" />
+            <TextBlock Text="Clave usuario:" FontSize="20" Grid.Row="1" Grid.Column="0"
+                       HorizontalAlignment="Right" Margin="10,10,10,10" />
+            <PasswordBox x:Name="clave" FontSize="20"  Width="150" Grid.Row="1" Grid.Column="1"
+                         HorizontalAlignment="Left" Margin="10,10,10,10" />
+            <Button x:Name="boton1" FontSize="20" Content="Confirmar" Grid.Row="2" Grid.Column="1" 
+                    Margin="10" Padding="10" Background="Navy" Foreground="White"
+                    Width="150" HorizontalAlignment="Left"/>
+        </Grid>
+    </Grid>
+</Page>

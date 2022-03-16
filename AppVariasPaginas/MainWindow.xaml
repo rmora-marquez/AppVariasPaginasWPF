@@ -1,0 +1,27 @@
+﻿<Window x:Class="AppVariasPaginas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppVariasPaginas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Name="boton1" Content="Login" 
+                    Margin="5" Padding="5" 
+                    Background="Navy" Foreground="White" 
+                    FontSize="20" FontWeight="Bold" Click="boton1_Click"
+                    ></Button>
+            <Button Name="boton2" Content="Acerca de"
+                    Margin="5" Padding="5"                   
+                    Background="Navy" Foreground="White" 
+                    FontSize="20" FontWeight="Bold" Click="boton2_Click"></Button>
+        </StackPanel>
+        <Frame Name="frame1" Grid.Row="1" Background="Azure"></Frame>
+    </Grid>
+</Window>
