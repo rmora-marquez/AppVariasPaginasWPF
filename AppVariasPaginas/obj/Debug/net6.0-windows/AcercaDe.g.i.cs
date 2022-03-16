@@ -53,7 +53,7 @@ namespace AppVariasPaginas {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AppVariasPaginas;component/acercade.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AppVariasPaginas;V1.0.0.0;component/acercade.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AcercaDe.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\rmora\source\repos\AppVariasPaginas\AppVariasPaginas\obj\Debug\net6.0-windows\
+C:\Users\rmora\Source\Repos\AppVariasPaginasWPF\AppVariasPaginas\obj\Debug\net6.0-windows\
 AppVariasPaginas
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\rmora\source\repos\AppVariasPaginas\AppVariasPaginas\App.xaml
+C:\Users\rmora\Source\Repos\AppVariasPaginasWPF\AppVariasPaginas\App.xaml
 3-678685364
 
 7-366982877
 1941645785384
 AcercaDe.xaml;Login.xaml;MainWindow.xaml;
 
-True
+False
 
